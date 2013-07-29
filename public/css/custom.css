@@ -1,0 +1,34 @@
+h1.ma-logo {
+	color: #EEC;
+}
+
+span.ma-logo {
+	color: #E33;
+}
+
+#main {
+background: black center center no-repeat url('/images/Fotolia_35582576_S.jpg');
+background-size: cover;
+min-width: 0px;
+}
+
+body {
+	background-color: black;
+}
+
+.ma-heading {
+	color: #eee;
+	font-size: 30px;
+	padding-top: 20px;
+	background-color: rgba(0,0,0,0.5);
+}
+
+.ma-subheading {
+	color: #cca;
+	background-color: rgba(0,0,0,0.5);
+}
+
+.ma-advantage {
+	color: #aa8;
+}
+
