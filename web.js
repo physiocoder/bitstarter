@@ -1,10 +1,13 @@
 var express = require('express');
 var fs = require('fs');
+var path = require('path');
 
 var app = express.createServer(express.logger());
 
+app.use(express.static(path.join(__dirname, 'public')));
+
 app.get('/', function(request, response) {
-    var index = fs.readFileSync('index_.html');
+    var index = fs.readFileSync('index.html');
     response.send(index.toString());
 });
 
