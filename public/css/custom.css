@@ -1,5 +1,5 @@
 h1.ma-logo {
-	color: #EEC;
+	color: #FFD;
 }
 
 span.ma-logo {
@@ -17,18 +17,32 @@ body {
 }
 
 .ma-heading {
-	color: #eee;
+	color: #EEC;
 	font-size: 30px;
 	padding-top: 20px;
 	background-color: rgba(0,0,0,0.5);
 }
 
 .ma-subheading {
-	color: #cca;
+	color: #CCA;
 	background-color: rgba(0,0,0,0.5);
 }
 
 .ma-advantage {
-	color: #aa8;
+	color: #CCA;
 }
 
+.ma-faq {
+	margin-top: 3%;
+	background-color: #333;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.accordion-inner {
+	color: #CCA;
+}
+
+h3 {
+	color: #CCA;
+}
